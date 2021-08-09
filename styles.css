@@ -36,7 +36,7 @@ body {
 }
 .mario {
   position: absolute;
-  top: 30px;
+  top: 15px;
   left: 0px;
   animation-name: drive;
   animation-duration: 2.5s;
@@ -45,9 +45,9 @@ body {
 }
 @keyframes drive {
   from {
-    transform: translateX(-10);
+    transform: translateX(-50);
   }
   to {
-    transform: translateX(600px);
+    transform: translateX(1000px);
   }
 }
