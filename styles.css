@@ -45,9 +45,9 @@ body {
 }
 @keyframes drive {
   from {
-    transform: translateX(-50);
+    transform: translateX(-70px);
   }
   to {
-    transform: translateX(1000px);
+    transform: translateX(1100vw);
   }
 }
